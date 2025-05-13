@@ -1,0 +1,47 @@
+{
+  "name": "@groundworx/utils",
+  "version": "1.0.0",
+  "description": "Shared utility functions for Groundworx block and theme systems.",
+  "author": "Johanne Courtright",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "dist/index.js",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "babel src --out-dir dist --extensions \".js,.jsx\"",
+    "build:watch": "npm run build -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/groundworx-dev/utils.git"
+  },
+  "keywords": [
+    "wordpress",
+    "groundworx",
+    "utils"
+  ],
+  "bugs": {
+    "url": "https://github.com/groundworx-dev/utils/issues"
+  },
+  "homepage": "https://github.com/groundworx-dev/utils#readme",
+  "dependencies": {
+    "@groundworx/foundation": "^1.0.0"
+  },
+  "peerDependencies": {
+    "@wordpress/compose": "*",
+    "@wordpress/hooks": "*"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.27.2",
+    "@babel/core": "^7.27.1",
+    "@wordpress/babel-preset-default": "^8.23.0"
+  }
+}

@@ -1,0 +1,25 @@
+# build folder
+build/
+
+# Node modules
+node_modules/
+
+# Dependency locks (if you're not committing them)
+package-lock.json
+
+# Optional: VS Code
+.vscode/
+
+# Mac system files
+.DS_Store
+
+# Sass cache (if you ever use compiled SCSS)
+.sass-cache/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Tests
+coverage/
