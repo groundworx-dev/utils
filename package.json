@@ -1,6 +1,6 @@
 {
   "name": "@groundworx/utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shared utility functions for Groundworx block and theme systems.",
   "author": "Johanne Courtright",
   "license": "MIT",

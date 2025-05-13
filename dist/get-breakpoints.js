@@ -1,4 +1,4 @@
-import { breakpoints as defaultBreakpoints } from '@groundworx/foundation-dev';
+import { breakpoints as defaultBreakpoints } from '@groundworx/foundation';
 import { applyFilters } from '@wordpress/hooks';
 
 // Apply the WordPress filter to allow overrides
