@@ -1,10 +1,4 @@
-import { breakpoints as defaultBreakpoints } from '@groundworx/foundation';
-import { applyFilters } from '@wordpress/hooks';
-
-// Apply the WordPress filter to allow overrides
-let breakpoints = applyFilters('groundworx.breakpoints', {
-  ...defaultBreakpoints
-});
+import { breakpoints } from '@groundworx/foundation';
 const GetBreakpoints = {
   /**
    * Get all breakpoints, optionally adjusted for a container width.
